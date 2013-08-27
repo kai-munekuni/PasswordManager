@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btb"
+        android:onClick="btnew"
+        android:text="データ" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button1"
+        android:layout_alignRight="@+id/button1"
+        android:onClick="chenge"
+        android:text="パス変更" />
+
+    <Button
+        android:id="@+id/bta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:onClick="btnyu"
+        android:text="作る" />
+
+    <Button
+        android:id="@+id/btb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bta"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="75dp"
+        android:onClick="bttango"
+        android:text="単語データ" />
+
+</RelativeLayout>

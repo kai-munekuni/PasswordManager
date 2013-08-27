@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<!-- タイトル -->
+	<TextView android:text="プロフィール登録"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FFFFFF"
+		android:textSize="20sp"
+		android:gravity="center"
+		android:layout_marginBottom="10dp">
+	</TextView>
+
+	<!-- ニックネーム -->
+	<TextView android:text="名前(ローマ字のみ)"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FFFFFF"
+		android:textSize="14sp"
+		android:layout_marginLeft="20dp">
+	</TextView>
+
+	<EditText android:id="@+id/edittext_nickname"
+		android:inputType="text" 
+        android:digits="abcdefghijklmnopqrstuvwxyz"
+		android:maxLength="10"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:imeOptions="actionDone"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</EditText>
+<EditText android:id="@+id/edittext_title"
+		android:inputType="text" 
+		android:maxLength="10"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:imeOptions="actionDone"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</EditText>
+	
+	<View android:layout_width="wrap_content" android:background="#DDFFFFFF" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+
+
+	<View android:layout_width="wrap_content" android:background="#DDFFFFFF" android:layout_height="1dp" android:layout_marginBottom="1dp"></View>
+
+	<!-- 年齢 -->
+	<TextView android:text="生年月日"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:textColor="#FFFFFF"
+		android:textSize="14sp"
+		android:layout_marginLeft="20dp">
+	</TextView>
+
+	<DatePicker android:id="@+id/datepicker_birthday"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center">
+	</DatePicker>
+
+	<!-- 登録 -->
+	<Button android:id="@+id/button_regist"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:text="作る"
+		android:onClick="onClick">
+	</Button>
+
+	<TextView
+	    android:id="@+id/tv_display"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="NO DATA"
+	    android:textSize="20sp" />
+     
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/textname"
+      android:text="NO DATA"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登録"
+        android:onClick ="onClick"/>
+
+    <Button
+        android:id="@+id/btango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="名前and誕生日登録"
+        android:onClick="onClick" />
+
+
+</LinearLayout>
