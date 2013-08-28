@@ -4,14 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <GridView
+    <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="9"
-        android:numColumns="2" >
+        android:layout_weight="9" >
 
-    </GridView>
+    </ListView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,14 +23,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="set"
-            android:text="設定" />
+            android:text="Conf" />
 
         <Button
             android:id="@+id/buttonplus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="plus"
-            android:text="追加" />
+            android:text="new" />
 
         <Button
             android:id="@+id/buttondelete"
@@ -39,7 +38,16 @@
             android:layout_height="wrap_content"
             android:onClick="delete"
             android:longClickable="true"
-            android:text="削除" />
+            android:text="remove"
+            android:visibility="invisible"/>
+        <Button
+                android:id="@+id/buttondelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="delete"
+                android:longClickable="true"
+                android:text="edit"
+                android:visibility="invisible"/>
 
 
     </LinearLayout>

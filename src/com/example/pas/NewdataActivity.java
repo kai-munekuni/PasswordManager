@@ -14,18 +14,17 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.text.ClipboardManager;
 import android.text.InputType;
+import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.GridView;
-import android.widget.Toast;
-import  android.widget.Button;
+import android.widget.*;
 
 public class NewdataActivity extends Activity {
 
-    ArrayList<String> array;
-    ArrayAdapter<String> adapter;
+
+
+    private ListView list;
+    ArrayList<Entry> array;
+    EntryAdapter adapter;
 
     Button btn;
 
@@ -57,11 +56,13 @@ public class NewdataActivity extends Activity {
     // 単語を入力した後は
     // ワンクリックで生成出来るようにする
     // 生成の条件を決められるようにする、　例：数字だけ、英語だけ
-    //
+
+
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_newdata);
+        list=(ListView)findViewById(R.id.list);
 
         btn = (Button)findViewById(R.id.buttondelete);
         // btn.setOnLongClickListener(View v);
@@ -80,125 +81,126 @@ public class NewdataActivity extends Activity {
         pref = PreferenceManager
                 .getDefaultSharedPreferences(getApplicationContext());
         int passNum = pref.getInt("password_num", 0); // 現在のパスワード数
-        array = new ArrayList<String>(); // パfスワード数分の配列を作成
+        array = new ArrayList<Entry>(); // パfスワード数分の配列を作成
 
 
 
         // パスワードを配列に格納
         for (int i = 1; i <= passNum; i ++) {
-            array.add(pref.getString("title" + i, "No Title"));
-            array.add(pref.getString("password" + i, "No Password"));
+            Entry entry = Entry.load(this,i);
+            array.add(entry);
+
         }
 
         initializeDialogs();
 
         // 画面のリストに表示する
-        GridView gridView = (GridView) findViewById(R.id.list);
-        adapter = new ArrayAdapter<String>(this,
-                android.R.layout.simple_list_item_1, array);
-        gridView.setAdapter(adapter);
+        adapter=new EntryAdapter(this,R.layout.row,array);
 
-        gridView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            public boolean onItemLongClick(AdapterView<?> parent, View view,
-                                           final int position, long id) {
-                if (offset == 1) {
-                    //削除モード
-                    int values;
+        list.setAdapter(adapter);
 
-                    if (position % 2 == 1){
-                        new AlertDialog.Builder(NewdataActivity.this)
-                                .setTitle("削除してよろしい？")
-                                .setPositiveButton("許可",
-                                        new DialogInterface.OnClickListener() {
-                                            public void onClick(
-                                                    DialogInterface dialog,
-                                                    int which) {
-                                                num=position/2+1;
-                                                pref.edit().remove("password"+String.valueOf(num)).commit();
-                                                pref.edit().remove("title"+String.valueOf(num)).commit();
-
-                                            }
-                                        })
-                                .setNegativeButton("拒否",
-                                        new DialogInterface.OnClickListener() {
-                                            public void onClick(
-                                                    DialogInterface dialog,
-                                                    int which) {
-                                            }
-                                        }).create().show();
-                        //num=position/2+1;
-//                        SharedPreferences.Editor remove (String password+"position")
-//                        SharedPreferences.Editor remove (String title+"position")
-                        //pref.edit().remove("password"+String.valueOf(num)).commit();
-                        //pref.edit().remove("title"+String.valueOf(num)).commit();
-
-
-                        //削除
-                    } else {
-                        num = position/2;
-                        pref.edit().remove("password"+String.valueOf(num)).commit();
-                        pref.edit().remove("title"+String.valueOf(num)).commit();
-                        adapter.notifyDataSetChanged();
-//                        SharedPreferences.Editor remove (String password+"position")
-//                        SharedPreferences.Editor remove (String title+"position")
-
-                    }
-
-
-                } else if(offset==0) {
-                    //通常モーード
-
-                    if (position % 2 == 0) {
-                        currentKey = "title" + (position / 2);
-                    } else {
-                        currentKey = "password" + (position / 2);
-                    }
-                    currentId = position;
-                    longET.setText(pref.getString(currentKey, "No Password"));
-
-                    if (longClickAD == null) {
-                        longClickAD = new AlertDialog.Builder(NewdataActivity.this)
-                                .setTitle("何をしますか")
-                                .setView(longET)
-                                .setPositiveButton("再生成",
-                                        new DialogInterface.OnClickListener() {
-                                            public void onClick(
-                                                    DialogInterface dialog,
-                                                    int which) {
-
-                                            }
-                                        })
-
-                                .setNeutralButton("変更",
-                                        new DialogInterface.OnClickListener() {
-
-                                            public void onClick(
-                                                    DialogInterface dialog,
-                                                    int which) {
-                                                String newPassword = longET.getText()
-                                                        .toString();
-                                                editPref(newPassword);
-                                            }
-                                        })
-                                .setNegativeButton("コピー",
-                                        new DialogInterface.OnClickListener() {
-
-                                            public void onClick(
-                                                    DialogInterface dialog,
-                                                    int which) {
-                                                ClipboardManager cm = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
-
-                                                cm.setText(longET.getText());
-
-                                            }
-                                        }).create();
-                    }
-                }
-                longClickAD.show();
-
-                return false;
-            }
-        });
+//
+//        list.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+//            public boolean onItemLongClick(AdapterView<?> parent, View view,
+//                                           final int position, long id) {
+//                if (offset == 1) {
+//                    //削除モード
+//                    int values;
+//
+//                    if (position % 2 == 1){
+//                        new AlertDialog.Builder(NewdataActivity.this)
+//                                .setTitle("削除してよろしい？")
+//                                .setPositiveButton("許可",
+//                                        new DialogInterface.OnClickListener() {
+//                                            public void onClick(
+//                                                    DialogInterface dialog,
+//                                                    int which) {
+//                                                num=position/2+1;
+//                                                pref.edit().remove("password"+String.valueOf(num)).commit();
+//                                                pref.edit().remove("title"+String.valueOf(num)).commit();
+//
+//                                            }
+//                                        })
+//                                .setNegativeButton("拒否",
+//                                        new DialogInterface.OnClickListener() {
+//                                            public void onClick(
+//                                                    DialogInterface dialog,
+//                                                    int which) {
+//                                            }
+//                                        }).create().show();
+//                        //num=position/2+1;
+////                        SharedPreferences.Editor remove (String password+"position")
+////                        SharedPreferences.Editor remove (String title+"position")
+//                        //pref.edit().remove("password"+String.valueOf(num)).commit();
+//                        //pref.edit().remove("title"+String.valueOf(num)).commit();
+//
+//
+//                        //削除
+//                    } else {
+//                        num = position/2;
+//                        pref.edit().remove("password"+String.valueOf(num)).commit();
+//                        pref.edit().remove("title"+String.valueOf(num)).commit();
+//                        adapter.notifyDataSetChanged();
+////                        SharedPreferences.Editor remove (String password+"position")
+////                        SharedPreferences.Editor remove (String title+"position")
+//
+//                    }
+//
+//
+//                } else if(offset==0) {
+//                    //通常モーード
+//
+//                    if (position % 2 == 0) {
+//                        currentKey = "title" + (position / 2);
+//                    } else {
+//                        currentKey = "password" + (position / 2);
+//                    }
+//                    currentId = position;
+//                    longET.setText(pref.getString(currentKey, "No Password"));
+//
+//                    if (longClickAD == null) {
+//                        longClickAD = new AlertDialog.Builder(NewdataActivity.this)
+//                                .setTitle("何をしますか")
+//                                .setView(longET)
+//                                .setPositiveButton("再生成",
+//                                        new DialogInterface.OnClickListener() {
+//                                            public void onClick(
+//                                                    DialogInterface dialog,
+//                                                    int which) {
+//
+//                                            }
+//                                        })
+//
+//                                .setNeutralButton("変更",
+//                                        new DialogInterface.OnClickListener() {
+//
+//                                            public void onClick(
+//                                                    DialogInterface dialog,
+//                                                    int which) {
+//                                                String newPassword = longET.getText()
+//                                                        .toString();
+//                                                editPref(newPassword);
+//                                            }
+//                                        })
+//                                .setNegativeButton("コピー",
+//                                        new DialogInterface.OnClickListener() {
+//
+//                                            public void onClick(
+//                                                    DialogInterface dialog,
+//                                                    int which) {
+//                                                ClipboardManager cm = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+//
+//                                                cm.setText(longET.getText());
+//
+//                                            }
+//                                        }).create();
+//                    }
+//                }
+//                longClickAD.show();
+//
+//                return false;
+//            }
+//        });
     }
 
     private void initializeDialogs() {
@@ -233,7 +235,7 @@ public class NewdataActivity extends Activity {
 
     private void editPref(String s) {
         pref.edit().putString(currentKey, s).commit();
-        array.set(currentId, s);
+        //array.set(currentId, s);
         adapter.notifyDataSetChanged();
     }
 
@@ -243,18 +245,11 @@ public class NewdataActivity extends Activity {
     }
 
     public void add(String serviceName, String password) {
-        array.add(serviceName);
-        array.add(password);
-        int number=array.size()/2;
-        Editor editor = pref.edit();
-        editor.putString("title" + number,
-                serviceName);
-        editor.putString("password" + number,
-                password);
-        editor.putInt("password_num", number);
-        editor.commit();
+        Entry entry = new Entry(array.size()+1,serviceName,password);
+        array.add(entry);
+        entry.save(this);
         adapter.notifyDataSetChanged();
-
+        pref.edit().putInt("password_num", array.size()).commit();
     }
 
     public void alldelete(){
