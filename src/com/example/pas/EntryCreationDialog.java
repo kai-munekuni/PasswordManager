@@ -10,11 +10,11 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class EntryCreationDialog extends Dialog {
-
+    int num=5;
     private Entry entry;
 
     private Button cancelButton;
-    private Button okButton;
+    private Button okButton,makeButton;
     private EditText nameEdit;
     private EditText passwordEdit;
 
@@ -28,9 +28,11 @@ public class EntryCreationDialog extends Dialog {
         initComponents();
     }
 
+
     private void initComponents() {
         cancelButton = (Button)findViewById(R.id.cancel_button);
         okButton = (Button)findViewById(R.id.ok_button);
+        makeButton = (Button)findViewById(R.id.make_button);
         nameEdit = (EditText)findViewById(R.id.name_edit);
         passwordEdit = (EditText)findViewById(R.id.password_edit);
 
@@ -39,6 +41,8 @@ public class EntryCreationDialog extends Dialog {
 
         cancelButton.setOnClickListener(new CancelButtonListener());
         okButton.setOnClickListener(new OkButtonListener());
+        makeButton.setOnClickListener(new MakeButtonListener());
+
     }
 
     private class CancelButtonListener implements View.OnClickListener {
@@ -55,6 +59,13 @@ public class EntryCreationDialog extends Dialog {
             entry.setPassword(passwordEdit.getText().toString());
             entry.save(getContext());
             EntryCreationDialog.this.dismiss();
+        }
+    }
+    private class MakeButtonListener implements View.OnClickListener {
+
+        @Override
+        public void onClick(View view) {
+            passwordEdit.setText(GeneActivity.getRandomString(num));
         }
     }
 }

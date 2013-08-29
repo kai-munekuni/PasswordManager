@@ -12,6 +12,7 @@ public class Entry {
     private int id;
     private String serviceName;
     private String password;
+    private boolean hidden;
     public Entry(int id){
         this(id,"","");
     }
@@ -20,6 +21,7 @@ public class Entry {
         this.id = id;
         this.serviceName = serviceName;
         this.password = password;
+        this.hidden=true;
     }
 
     public int getId() {
@@ -47,6 +49,14 @@ public class Entry {
 
     public void setSelected(boolean selected) {
         this.selected = selected;
+    }
+
+    public boolean isHidden() {
+        return hidden;
+    }
+
+    public void setHidden(boolean hidden) {
+        this.hidden = hidden;
     }
 
     public void save(Context context) {
@@ -87,7 +97,7 @@ public class Entry {
     }
     public void remove(Context context){
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(context);
-        pref.edit().remove("password"+id).commit();
+        pref.edit().remove("password" + id).commit();
         pref.edit().remove("title"+id).commit();
 
 

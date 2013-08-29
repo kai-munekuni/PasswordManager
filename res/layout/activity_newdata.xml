@@ -33,6 +33,12 @@
             android:text="new" />
 
         <Button
+                android:id="@+id/buttonplus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="show"
+                android:text="show" />
+        <Button
             android:id="@+id/buttondelete"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

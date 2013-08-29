@@ -4,10 +4,11 @@ package com.example.pas;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.preference.PreferenceActivity;
 import android.view.Menu;
 import android.view.View;
 
-public class MainActivity extends Activity {
+public class MainActivity extends PreferenceActivity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -28,7 +29,7 @@ public class MainActivity extends Activity {
 	}
 
 	public void btgene(View view){
-		Intent intent = new Intent(MainActivity.this, geneActivity.class);
+		Intent intent = new Intent(MainActivity.this, GeneActivity.class);
 		startActivity(intent);
 	}
 	public void btother(View view){

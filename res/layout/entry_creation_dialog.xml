@@ -68,7 +68,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Make"
-                android:id="@+id/gene_button"
+                android:id="@+id/make_button"
                 />
 
         <Button

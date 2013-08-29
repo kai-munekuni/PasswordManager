@@ -18,35 +18,42 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy236422909122697309tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377302687934" ignored="false" />
     <file path="/fragment.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377568060199" ignored="false" />
-    <file path="/NewdataActivity.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377754134458" ignored="false" />
-    <file path="/geneActivity.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377744833918" ignored="false" />
+    <file path="/NewdataActivity.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377760546297" ignored="false" />
+    <file path="/geneActivity.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377757191618" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy505279685289697305tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377309929162" ignored="false" />
-    <file path="/activity_newdata.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377745155869" ignored="false" />
+    <file path="/activity_newdata.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377755546434" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy7209065412482194549tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377482408613" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy5084458568602227122tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377565804285" ignored="false" />
     <file path="/App.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377588460312" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377588437445" ignored="false" />
     <file path="$PROJECT_DIR$/gen/com/example/pas/Manifest.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377588440059" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/example/pas/BuildConfig.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377739613920" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/pas/BuildConfig.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377757354706" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy7942978267237102365tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377589156208" ignored="false" />
-    <file path="/Entry.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377746260995" ignored="false" />
+    <file path="/Entry.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377759962830" ignored="false" />
     <file path="/a.dummy" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377652756081" ignored="false" />
-    <file path="/EntryAdapter.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377673750748" ignored="false" />
+    <file path="/EntryAdapter.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377759784802" ignored="false" />
     <file path="/Dummy.txt" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377739325868" ignored="false" />
-    <file path="/row.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377672146689" ignored="false" />
+    <file path="/row.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377755457822" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy4557858791964838021tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377654985974" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy5582773208782285291tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377656033116" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy8386739122440213564tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377656127808" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy4345524589696168136tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377673414965" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy3511305759654820919tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377674476375" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy6793890333478451899tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377736062836" ignored="false" />
-    <file path="/entry_creation_dialog.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377736611931" ignored="false" />
+    <file path="/entry_creation_dialog.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377758822954" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy7516000174730883076tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377736737434" ignored="false" />
-    <file path="$PROJECT_DIR$/gen/com/example/pas/R.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377739520208" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/example/pas/R.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377757198850" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy6370001305854600364tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377740803545" ignored="false" />
-    <file path="/EntryCreationDialog.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377741409995" ignored="false" />
+    <file path="/EntryCreationDialog.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377758925622" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy7633139685441860437tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377745047989" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy5027950920650162647tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377745815934" ignored="false" />
+    <file path="/activity_top.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377754574721" ignored="false" />
+    <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy8863469532965255842tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377754606203" ignored="false" />
+    <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy4863636886527823500tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377755466459" ignored="false" />
+    <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy4859394015004728185tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377758326204" ignored="false" />
+    <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy7522626337537717316tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377758392471" ignored="false" />
+    <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy4512159526232845274tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377758948341" ignored="false" />
+    <file path="/MainActivity.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377761421772" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,10 +117,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_newdata.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="activity_newdata.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_newdata.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.029411765">
+            <state line="60" column="37" selection-start="2109" selection-end="2109" vertical-scroll-proportion="-8.653846">
               <folding />
             </state>
           </provider>
@@ -125,12 +132,21 @@
       <file leaf-file-name="NewdataActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/pas/NewdataActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="0" selection-start="4226" selection-end="4226" vertical-scroll-proportion="-3.48">
+            <state line="123" column="52" selection-start="3271" selection-end="3271" vertical-scroll-proportion="-9.24">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1788#1958#0" expanded="true" />
-                <element signature="e#1947#1948#0" expanded="true" />
+                <element signature="e#2049#2219#0" expanded="true" />
+                <element signature="e#2208#2209#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/pas/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="44" selection-start="256" selection-end="256" vertical-scroll-proportion="0.15182187">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,10 +163,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="geneActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/pas/geneActivity.java">
+      <file leaf-file-name="GeneActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/pas/GeneActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="93" selection-start="3165" selection-end="3165" vertical-scroll-proportion="-55.8">
+            <state line="84" column="36" selection-start="2895" selection-end="2895" vertical-scroll-proportion="-5.96">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,7 +177,7 @@
       <file leaf-file-name="Entry.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/pas/Entry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,7 +188,7 @@
       <file leaf-file-name="EntryAdapter.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/pas/EntryAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="23" selection-start="2046" selection-end="2047" vertical-scroll-proportion="-16.08">
+            <state line="49" column="59" selection-start="1737" selection-end="1737" vertical-scroll-proportion="-16.4">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,7 +199,7 @@
       <file leaf-file-name="row.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/row.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="46" selection-start="286" selection-end="286" vertical-scroll-proportion="-2.0192308">
+            <state line="28" column="38" selection-start="1189" selection-end="1189" vertical-scroll-proportion="-5.3461537">
               <folding />
             </state>
           </provider>
@@ -195,7 +211,7 @@
       <file leaf-file-name="EntryCreationDialog.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/pas/EntryCreationDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="44" selection-start="1776" selection-end="1783" vertical-scroll-proportion="0.0">
+            <state line="58" column="64" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,7 +222,7 @@
       <file leaf-file-name="entry_creation_dialog.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/layout/entry_creation_dialog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="34" selection-start="2349" selection-end="2349" vertical-scroll-proportion="-4.6153846">
+            <state line="70" column="37" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-4.6153846">
               <folding />
             </state>
           </provider>
@@ -254,16 +270,19 @@
       <list>
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/example/pas/App.java" />
-        <option value="$PROJECT_DIR$/res/layout/row.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/pas/EntryAdapter.java" />
-        <option value="$PROJECT_DIR$/res/layout/entry_creation_dialog.xml" />
         <option value="$PROJECT_DIR$/res/layout/NewGene.xml" />
-        <option value="$PROJECT_DIR$/src/com/example/pas/EntryCreationDialog.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_gene.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_top.xml" />
+        <option value="$PROJECT_DIR$/res/layout/row.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_newdata.xml" />
         <option value="$PROJECT_DIR$/src/com/example/pas/geneActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/example/pas/GeneActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/entry_creation_dialog.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/pas/EntryCreationDialog.java" />
+        <option value="$PROJECT_DIR$/src/com/example/pas/EntryAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/example/pas/Entry.java" />
         <option value="$PROJECT_DIR$/src/com/example/pas/NewdataActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/activity_newdata.xml" />
+        <option value="$PROJECT_DIR$/src/com/example/pas/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -619,12 +638,12 @@
       <workItem from="1377255009688" duration="49087000" />
       <workItem from="1377583391656" duration="3000" />
       <workItem from="1377584905194" duration="169000" />
-      <workItem from="1377586665871" duration="33557000" />
+      <workItem from="1377586665871" duration="40886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83000000" />
+    <option name="totallyTimeSpent" value="90329000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="0" />
@@ -642,14 +661,14 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09593496" sideWeight="0.8966565" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11854103" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36778116" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27355623" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24471545" sideWeight="0.8966565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.67173254" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.103343464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20668693" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -658,28 +677,28 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.60030395" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.8966565" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09593496" sideWeight="0.8966565" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.09593496" sideWeight="0.8966565" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24471545" sideWeight="0.60030395" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.103343464" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24471545" sideWeight="0.8966565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495935" sideWeight="0.67173254" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4012158" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.60030395" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.8966565" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.88905776" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2112462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3905775" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11854103" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27355623" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -747,30 +766,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Applications/sdk/platforms/android-10/android.jar!/android/os/Handler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.34463277" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#362#380#0" expanded="false" />
-            <element signature="e#508#537#0" expanded="false" />
-            <element signature="e#646#664#0" expanded="false" />
-            <element signature="e#785#803#0" expanded="false" />
-            <element signature="e#924#942#0" expanded="false" />
-            <element signature="e#1080#1098#0" expanded="false" />
-            <element signature="e#1225#1243#0" expanded="false" />
-            <element signature="e#1365#1383#0" expanded="false" />
-            <element signature="e#1507#1525#0" expanded="false" />
-            <element signature="e#1670#1688#0" expanded="false" />
-            <element signature="e#2000#2018#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/pas/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="27" selection-start="320" selection-end="320" vertical-scroll-proportion="0.0">
@@ -794,16 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/row.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="46" selection-start="286" selection-end="286" vertical-scroll-proportion="-2.0192308">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/raw/id_rsa_pub">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -818,9 +803,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/entry_creation_dialog.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_top.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="34" selection-start="2349" selection-end="2349" vertical-scroll-proportion="-4.6153846">
+        <state line="26" column="43" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-5.769231">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_newdata.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="37" selection-start="2109" selection-end="2109" vertical-scroll-proportion="-8.653846">
           <folding />
         </state>
       </provider>
@@ -838,18 +833,47 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/pas/geneActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/example/pas/GeneActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="93" selection-start="3165" selection-end="3165" vertical-scroll-proportion="-55.8">
+        <state line="84" column="36" selection-start="2895" selection-end="2895" vertical-scroll-proportion="-5.96">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/entry_creation_dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="37" selection-start="2388" selection-end="2388" vertical-scroll-proportion="-4.6153846">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/pas/EntryCreationDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="64" selection-start="1852" selection-end="1852" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="38" selection-start="1189" selection-end="1189" vertical-scroll-proportion="-5.3461537">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/pas/EntryAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="23" selection-start="2046" selection-end="2047" vertical-scroll-proportion="-16.08">
+        <state line="49" column="59" selection-start="1737" selection-end="1737" vertical-scroll-proportion="-16.4">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -858,16 +882,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/pas/Entry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1856" selection-end="1856" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/pas/EntryCreationDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="44" selection-start="1776" selection-end="1783" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="409" selection-end="409" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -876,23 +891,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/pas/NewdataActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="0" selection-start="4226" selection-end="4226" vertical-scroll-proportion="-3.48">
+        <state line="123" column="52" selection-start="3271" selection-end="3271" vertical-scroll-proportion="-9.24">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1788#1958#0" expanded="true" />
-            <element signature="e#1947#1948#0" expanded="true" />
+            <element signature="e#2049#2219#0" expanded="true" />
+            <element signature="e#2208#2209#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_newdata.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/example/pas/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.029411765">
+        <state line="10" column="44" selection-start="256" selection-end="256" vertical-scroll-proportion="0.15182187">
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>

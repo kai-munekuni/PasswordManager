@@ -9,9 +9,12 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.DataSetObserver;
+import android.graphics.Rect;
 import android.os.Bundle;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.text.ClipboardManager;
+import android.text.method.TransformationMethod;
 import android.view.View;
 import android.widget.*;
 
@@ -22,8 +25,9 @@ public class NewdataActivity extends Activity {
     private ListView list;
     ArrayList<Entry> array;
     EntryAdapter adapter;
-
+    private Handler handler;
     Button btremove,btedit,btcopy;
+    TextView passwordtext;
 
     SharedPreferences pref;
 
@@ -48,10 +52,11 @@ public class NewdataActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_newdata);
         list=(ListView)findViewById(R.id.list);
-
+        handler=new Handler();
         btremove = (Button)findViewById(R.id.buttondelete);
         btedit = (Button)findViewById(R.id.buttonedit);
         btcopy = (Button)findViewById(R.id.buttoncopy);
+        passwordtext = (TextView)findViewById(R.id.passwordTextView);
 
 
         // 設定保存用クラス
@@ -110,6 +115,14 @@ public class NewdataActivity extends Activity {
     public void add(Entry entry) {
         array.add(entry);
         pref.edit().putInt("password_num", array.size()).commit();
+    }
+
+    public void show (View v){
+        Entry entry = getSelected();
+        entry.setHidden(false);
+        adapter.notifyDataSetChanged();
+        handler.postDelayed(new EntryHider(entry), 3000);
+
     }
 
     public void alldelete(){
@@ -200,6 +213,16 @@ public class NewdataActivity extends Activity {
             }
             adapter.notifyDataSetChanged();
 
+        }
+    }
+    private class EntryHider implements  Runnable{
+        private Entry entry;
+        public EntryHider(Entry entry){
+            this.entry = entry;
+        }
+        public void run(){
+            entry.setHidden(true);
+            adapter.notifyDataSetChanged();
         }
     }
 }

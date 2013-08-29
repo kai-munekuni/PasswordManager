@@ -1,6 +1,7 @@
 package com.example.pas;
 
 import android.content.Context;
+import android.text.method.PasswordTransformationMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,8 +20,6 @@ public class EntryAdapter extends ArrayAdapter<Entry> {
         this.context = context;
         this.items = items;
     }
-
-
 
     @Override
     public View getView(int position, View contextView, ViewGroup parent) {
@@ -42,6 +41,13 @@ public class EntryAdapter extends ArrayAdapter<Entry> {
             rowView.setBackgroundColor(0x660000FF);
         } else {
             rowView.setBackgroundColor(0);
+        }
+
+        if(entry.isHidden()){
+            passwordTextView.setTransformationMethod(new PasswordTransformationMethod());
+
+        }else{
+            passwordTextView.setTransformationMethod(null);
         }
 
         return rowView;
