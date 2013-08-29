@@ -1,7 +1,8 @@
 package com.example.pas;
 
 import java.util.Random;
-
+//import org.apache.commons.*;
+import java.security.SecureRandom;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.SharedPreferences;
@@ -14,7 +15,7 @@ import android.widget.TextView;
 public class geneActivity extends Activity {
 
 	private TextView textView;
-
+    boolean big,smoll,num,kigou;
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_gene);
@@ -83,6 +84,22 @@ public class geneActivity extends Activity {
 
         }
 
+
+    public static String getRandomString(int cnt) {
+
+        int rannum;
+        String balth;
+       //String s=RandomStringUtils.randomAlphabetic(10);
+        //cntの数の文字数の数を生成
+        final String chars ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+        Random rnd=new Random();
+        StringBuffer buf = new StringBuffer();
+        for(int i=0;i<cnt;i++){
+            int val=rnd.nextInt(chars.length());
+            buf.append(chars.charAt(val));
+        }
+        return buf.toString();
+    }
     }
 
 

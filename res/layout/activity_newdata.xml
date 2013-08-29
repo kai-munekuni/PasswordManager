@@ -41,12 +41,20 @@
             android:text="remove"
             android:visibility="invisible"/>
         <Button
-                android:id="@+id/buttondelete"
+                android:id="@+id/buttonedit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="delete"
+                android:onClick="edit"
                 android:longClickable="true"
                 android:text="edit"
+                android:visibility="invisible"/>
+        <Button
+                android:id="@+id/buttoncopy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="copy"
+                android:longClickable="true"
+                android:text="copy"
                 android:visibility="invisible"/>
 
 

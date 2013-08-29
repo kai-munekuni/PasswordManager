@@ -12,6 +12,9 @@ public class Entry {
     private int id;
     private String serviceName;
     private String password;
+    public Entry(int id){
+        this(id,"","");
+    }
 
     public Entry(int id, String serviceName, String password) {
         this.id = id;
@@ -81,6 +84,13 @@ public class Entry {
         result = 31 * result + (serviceName != null ? serviceName.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
         return result;
+    }
+    public void remove(Context context){
+        SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(context);
+        pref.edit().remove("password"+id).commit();
+        pref.edit().remove("title"+id).commit();
+
+
     }
 }
 

@@ -20,6 +20,8 @@ public class EntryAdapter extends ArrayAdapter<Entry> {
         this.items = items;
     }
 
+
+
     @Override
     public View getView(int position, View contextView, ViewGroup parent) {
         View rowView;

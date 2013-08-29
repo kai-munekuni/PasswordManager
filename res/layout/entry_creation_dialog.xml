@@ -63,6 +63,14 @@
                 android:id="@+id/cancel_button"
                 />
 
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Make"
+                android:id="@+id/gene_button"
+                />
+
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

@@ -21,6 +21,7 @@ public class EntryCreationDialog extends Dialog {
     public EntryCreationDialog(Context context, String title, Entry entry) {
         super(context);
         this.setTitle(title);
+        this.setCanceledOnTouchOutside(false);
         this.setContentView(R.layout.entry_creation_dialog);
         this.entry = entry;
 
