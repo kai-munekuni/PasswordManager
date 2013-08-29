@@ -130,6 +130,14 @@ public class NewdataActivity extends Activity {
         entry.remove(this);
         pref.edit().putInt("password_num", array.size()).commit();
     }
+    public void edit(View view){
+        Entry entry = getSelected();
+        EntryCreationDialog dialog = new EntryCreationDialog(this,"editEntry",entry);
+        dialog.setOnDismissListener(new DialogDissmissListener(entry, false));
+        dialog.show();
+
+
+    }
     private void toggleBt (){
         if(getSelected()==null){
             hideButtons();
@@ -166,9 +174,12 @@ public class NewdataActivity extends Activity {
         dialog.show();
     }
 
-    public void onLongClick(View v){}
-    public void copy (){
+
+    public void copy (View view){
         ClipboardManager cm = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+        Entry entry = getSelected();
+        cm.setText(entry.getPassword());
+        Toast.makeText(this, "クリップボードにコピーしました", Toast.LENGTH_LONG).show();
         //cm.setText(longET.getText());
 
 

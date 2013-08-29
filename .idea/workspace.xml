@@ -18,7 +18,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy236422909122697309tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377302687934" ignored="false" />
     <file path="/fragment.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377568060199" ignored="false" />
-    <file path="/NewdataActivity.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377747036762" ignored="false" />
+    <file path="/NewdataActivity.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377754134458" ignored="false" />
     <file path="/geneActivity.java" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377744833918" ignored="false" />
     <file path="/private/var/folders/2k/vw4nxhlx53df1w32g35gpy_r0000gn/T/android_manifest_copy505279685289697305tmp/AndroidManifest.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377309929162" ignored="false" />
     <file path="/activity_newdata.xml" changelist="d9c3b72a-a802-4782-be45-26720e68fb0b" time="1377745155869" ignored="false" />
@@ -110,10 +110,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="activity_newdata.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="activity_newdata.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/activity_newdata.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="36" selection-start="1540" selection-end="1540" vertical-scroll-proportion="-6.923077">
+            <state line="22" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.029411765">
               <folding />
             </state>
           </provider>
@@ -122,10 +122,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewdataActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NewdataActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/pas/NewdataActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.05586592">
+            <state line="176" column="0" selection-start="4226" selection-end="4226" vertical-scroll-proportion="-3.48">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1788#1958#0" expanded="true" />
@@ -260,10 +260,10 @@
         <option value="$PROJECT_DIR$/res/layout/NewGene.xml" />
         <option value="$PROJECT_DIR$/src/com/example/pas/EntryCreationDialog.java" />
         <option value="$PROJECT_DIR$/res/layout/activity_gene.xml" />
-        <option value="$PROJECT_DIR$/res/layout/activity_newdata.xml" />
         <option value="$PROJECT_DIR$/src/com/example/pas/geneActivity.java" />
         <option value="$PROJECT_DIR$/src/com/example/pas/Entry.java" />
         <option value="$PROJECT_DIR$/src/com/example/pas/NewdataActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_newdata.xml" />
       </list>
     </option>
   </component>
@@ -619,12 +619,12 @@
       <workItem from="1377255009688" duration="49087000" />
       <workItem from="1377583391656" duration="3000" />
       <workItem from="1377584905194" duration="169000" />
-      <workItem from="1377586665871" duration="32451000" />
+      <workItem from="1377586665871" duration="33557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81894000" />
+    <option name="totallyTimeSpent" value="83000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1276" height="778" extended-state="0" />
@@ -828,15 +828,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/pas/EntryCreationDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="44" selection-start="1776" selection-end="1783" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/activity_gene.xml">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -874,25 +865,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/activity_newdata.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/example/pas/EntryCreationDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="36" selection-start="1540" selection-end="1540" vertical-scroll-proportion="-6.923077">
-          <folding />
+        <state line="56" column="44" selection-start="1776" selection-end="1783" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/pas/NewdataActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="26" selection-end="26" vertical-scroll-proportion="0.05586592">
+        <state line="176" column="0" selection-start="4226" selection-end="4226" vertical-scroll-proportion="-3.48">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1788#1958#0" expanded="true" />
             <element signature="e#1947#1948#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_newdata.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="0.029411765">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
   </component>
